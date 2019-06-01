@@ -1,9 +1,52 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
-
 @import url('variables.css');
 @import url('base.css');
-
 @import url('components/flex-grid.css');
 @import url('components/buttons.css');
 @import url('components/forms.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+.text
+{
+height: auto;
+width:700px ;
+padding: 50px;
+float: left;
+}
+
+.Picture{
+    height: auto;
+    width:600px ;
+    float: left;
+}
+
+
+.column {
+    padding-top: 10px;
+    float: left;
+    width: 30%;
+    padding: 5px;
+  }
+
+  .row::after {
+    padding-top: 20px;
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+    h1 {
+        font-size: 3em;
+        font-family:raleway;
+    }
+
+    p{
+        font-size: 1em;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
 
